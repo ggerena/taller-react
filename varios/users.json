@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Mario",
+      "age": 33,
+      "id": 1
+    },
+    {
+      "name": "Cristopher",
+      "age": 31,
+      "id": 2
+    },
+    {
+      "name": "Rodrigo",
+      "age": 29,
+      "id": 3
+    },
+    {
+      "name": "Francisco",
+      "age": 26,
+      "id": 4
+    },
+    {
+      "name": "Carlos",
+      "age": 35,
+      "id": 29
+    },
+    {
+      "name": "Carlos",
+      "age": 35,
+      "id": 30
+    },
+    {
+      "name": "Carlos",
+      "age": 35,
+      "id": 31
+    },
+  ]
+}

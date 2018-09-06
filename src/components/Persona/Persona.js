@@ -8,7 +8,7 @@ const Persona = (props) => {
             <p>Hola, soy {props.humano.name}</p>
             <p>Tengo {props.humano.age} años</p>
             <button 
-                onClick={props.click}>Accion</button>
+                onClick={() => props.click(props.humano.id)}>Quitar</button>
         </div>
     );
 }

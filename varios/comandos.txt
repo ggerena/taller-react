@@ -1,0 +1,24 @@
+20180906
+	npm install -g json-server
+	json-server --watch users.json
+
+	npm install axios --save
+	
+	npm install --save redux
+	
+	cd varios
+	node redux-basics.js
+
+------------------------------
+20180903
+	npm install -g create-react-app  // con sudo si es linux o mac
+	create-react-app taller-react
+	cd my-app/
+	npm start 
+
+
+	git init
+	git add
+	git commit -m "Primer commit"
+	git remote add origin <url del repositorio>
+	git push origin master

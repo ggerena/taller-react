@@ -1,6 +1,7 @@
 .Persona {
     border: 1px solid #eee; 
-    margin: 16px auto;
-    width: 40%;
+    margin: 16px;
+    width: 100px;
     background-color: blue;
+    float: left;
 }
