@@ -1,12 +1,10 @@
 20180906
 	npm install -g json-server
-	json-server --watch users.json
-
 	npm install axios --save
-	
 	npm install --save redux
-	
+
 	cd varios
+	json-server --watch users.json
 	node redux-basics.js
 
 ------------------------------
