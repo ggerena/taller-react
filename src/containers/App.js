@@ -57,7 +57,6 @@ class App extends Component {
   render() {
 
     let personas = null;
-    if (this.state.mostrarLista) {
       personas = (
         this.state.personas.map((item, index) =>
           <Persona
@@ -66,7 +65,6 @@ class App extends Component {
             click={this.onClick} />
         )
       );
-    }
 
     return (
       <div className="App" style={{align: 'left'}}>
@@ -74,9 +72,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Bienvenidos a React</h1>
         </header>
+        <button onClick={this.onClickMostrar}>Mostrar personas</button> <br/><br/>
         <button onClick={this.postDataHandler}>Agregar Carlos</button>
         <h1 onClick={this.onClickMostrar}>Cantidad de personas : {this.state.personas.length}</h1>
-        {personas}
+        { this.state.mostrarLista && personas}
       </div>
     );
   }
